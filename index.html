@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Wahyu Ramadhan</title>
+  </head>
+  <body>
+    <div class="container animate__animated animate__zoomIn">
+      <!-- Profil -->
+      <div class="profil">
+        <img src="img/Wahyu.png" alt="img" />
+        <p>Wahyu Ramadhan</p>
+      </div>
+      <!-- btn -->
+      <div class="link">
+        <!-- <a class="animate__animated animate__backInRight">Instagram</a> -->
+        <button onclick="klik('https://instagram.com/why_rmdnn')" class="btn btn1 animate__animated animate__backInRight">Instagram</button>
+        <button onclick="klik('https://facebook.com/wahyu.adictiya')" class="btn btn2 animate__animated animate__backInLeft">Facebook</button>
+        <button onclick="klik('https://youtube.com/@wahyuramadhaan')" class="btn btn3 animate__animated animate__backInRight">Youtube</button>
+        <button onclick="klik('https://trakteer.id/why_rmdn')" class="btn btn4 animate__animated animate__backInLeft">Trakteer</button>
+      </div>
+      <!-- footer -->
+      <div class="footer animate__animated animate__backInUp animate__delay-1s">
+        <i>Created With <i class="bi bi-heart-fill"></i> By Why Rmdn</i>
+      </div>
+    </div>
+    <script>
+      function klik(kemana) {
+        window.open(kemana);
+      }
+    </script>
+  </body>
+</html>
